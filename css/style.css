@@ -1,0 +1,415 @@
+
+html{
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+    color: #333;
+}
+
+header{
+    min-height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7)) , url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 100px;
+    margin-top: 20px;
+}
+
+.main-nav{
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li{
+    margin-right: 30px ;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main-nav li a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.hero{
+    position: absolute;
+    top: 40%;
+}
+
+h1{
+    color: white;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 150%;
+    margin-bottom: 30px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.hero a{
+    margin-right: 20px;
+    border: solid blueviolet 1px;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.hero a:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+}
+
+hr{
+    border: solid 3px blueviolet;
+    width: 150px;
+    margin-bottom: 20px;
+    background-color: blueviolet;
+}
+
+.feat-desc{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.feat{
+    text-align: center;
+}
+
+.feat h3{
+    font-weight: 500;
+}
+
+.feat p{
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.feat i{
+    color: blueviolet;
+    font-size: 36px;
+}
+
+.meal{
+    padding: 0;
+    margin-bottom: -5px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.meal img{
+    width: 100%;
+    opacity: .5;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.meal img:hover{
+    width: 100%;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.left-work{
+    text-align: right;
+    padding-right: 30px;
+}
+
+.left-work img{
+    width: 40%;
+}
+
+.right-work{
+    padding-top: 100px;
+}
+
+.step{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.step div{
+    width: 50px;
+    height: 50px;
+    border: solid 2px blueviolet;
+    border-radius: 50%;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.right-work img{
+    height: 50px;
+}
+
+.right-work a{
+    margin-right: 20px;
+}
+
+.city img{
+width: 100%;
+}
+
+h3{ 
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 700;
+    font-weight: bold;
+}
+
+.city-info{
+    display: flex;
+    align-items: center;
+}
+
+.city-info i{
+    color: blueviolet;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+#testimonials{
+    background:linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7)) , url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#testimonials i{
+    font-size: 50px;
+}
+
+#testimonials img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+#testimonials p{
+    line-height: 150%;
+}
+
+form{
+    padding-top: 50px;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+ 
+.text {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 7px;
+    border: 2px solid mediumpurple;
+    border-radius: 5px;
+}
+
+.email {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 7px;
+    border: 2px solid mediumpurple;
+    border-radius: 5px;
+}
+
+select{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 7px;
+    border: 2px solid mediumpurple;
+    border-radius: 5px;
+}
+
+.checkbox{
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+textarea{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 7px;
+    border: 2px solid mediumpurple;
+    border-radius: 5px;
+}
+
+button{
+    margin-right: 20px;
+    border: solid blueviolet 2px;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+button:hover{
+    color: blueviolet;
+    background-color: white;
+}
+
+
+.section-plans { background-color: #fcfcfc; }
+
+#plans .row hr{
+    border: solid 3px blueviolet;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-left: 45.5%; 
+    background-color: blueviolet;
+
+}
+
+#plans{
+background-color: whitesmoke;
+}
+
+.plan-box {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+          -webkit-box-shadow: 0 2px 2px whitesmoke;
+                  box-shadow: 0 2px 2px whitesmoke;
+}
+
+.plan-box div {
+  padding: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box:first-child {
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+  text-align: center;
+  border: 0;
+}
+
+.plan-price {
+  font-size: 300%;
+  margin-bottom: 10px;
+  font-weight: 100;
+  color: blueviolet;
+}
+
+.plan-price span {
+  font-size: 30%;
+  font-weight: 400;
+}
+
+.plan-price-meal { font-size: 80%; }
+
+.plan-box ul { list-style: none; }
+
+.plan-box ul li { 
+    padding: 5px 0px;
+}
+.plan-box ul li i{
+    padding-right: 15px;
+    
+}
+
+
+
+footer{
+    padding: 40px 0px;
+    background-color: #333;
+}
+
+footer p{
+    margin-top: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.footer-nav{
+    list-style: none;
+    display: flex;
+}
+
+.footer-nav li{
+    margin-right: 30px ;
+}
+
+.footer-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer-nav li a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.social-nav{
+    list-style: none;
+    display: flex;
+}
+
+.social-nav li{
+    margin-right: 30px ;
+}
+
+.social-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.social-nav li a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.social-nav{
+    float: right;
+}
+
+
